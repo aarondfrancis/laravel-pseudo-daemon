@@ -1,0 +1,30 @@
+{
+    "name": "resolute/pseudo-daemon",
+    "description": "A Laravel package to mimic daemons via scheduled commands without having to change server configuration.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Francis",
+            "email": "aarondfrancis@gmail.com",
+            "twitter": "@aarondfrancis"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^6.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.2",
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Resolute\\PseudoDaemon\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Resolute\\PseudoDaemon\\Tests\\": "tests/"
+        }
+    }
+}
