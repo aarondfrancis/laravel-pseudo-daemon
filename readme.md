@@ -6,7 +6,7 @@ A Laravel package to mimic daemons via scheduled commands without having to chan
 
 > For more information / rationale, see https://aaronfrancis.com/2020/laravel-pseudo-daemons.
 
-# Installation
+# Installation 
 
 You can install the package via composer:
 
