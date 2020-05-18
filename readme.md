@@ -1,6 +1,6 @@
 # Laravel Pseudo-Daemons
 
-[![Build Status](https://travis-ci.org/aarondfrancis/laravel-pseudo-daemons.svg?branch=master)](https://travis-ci.org/aarondfrancis/laravel-pseudo-daemons)
+[![Build Status](https://travis-ci.org/aarondfrancis/laravel-pseudo-daemons.svg?branch=master)](https://travis-ci.org/aarondfrancis/laravel-pseudo-daemon)
 
 A Laravel package to mimic daemons via scheduled commands without having to change server configuration. 
 
