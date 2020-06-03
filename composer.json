@@ -26,5 +26,12 @@
         "psr-4": {
             "Resolute\\PseudoDaemon\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Resolute\\PseudoDaemon\\PseudoDaemonServiceProvider"
+            ]
+        }
     }
 }
