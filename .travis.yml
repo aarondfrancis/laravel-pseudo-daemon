@@ -4,9 +4,6 @@ cache:
   directories:
     - $HOME/.composer/cache/files
 
-before_script:
-  - travis_retry composer update
-
 matrix:
   include:
     - php: 7.2
