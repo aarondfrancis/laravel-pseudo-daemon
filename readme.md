@@ -19,7 +19,7 @@ Add the `IsPseudoDaemon` trait to any of your Laravel Commands and call `runAsPs
 ```php
 class TestCommand extends Command
 {
-    use IsPseudoDaemon;
+    use \Resolute\PseudoDaemon\IsPseudoDaemon;
 
     public function handle()
     {
